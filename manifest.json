@@ -1,0 +1,25 @@
+{
+    "name": "Jogo da velha renatao",
+    "short_name": "Jogo da velha",
+    "icons": [
+        {
+            "src": "/images/c.webp",
+            "sizes": "256x256",
+            "type": "image/webp",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/images/b.jpg",
+            "sizes": "512x512",
+            "type": "image/jpg",
+            "purpose": "maskable any"
+        }
+    ],
+    "lang": "pt-BR",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "hotpink",
+    "theme_color": "white"
+}
+
+
