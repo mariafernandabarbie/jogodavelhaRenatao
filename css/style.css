@@ -1,9 +1,10 @@
 body {
     text-align: center;
     font-family: Arial, sans-serif;
+    background-color: rgb(228, 9, 118);
   }
   
-  .board {
+  .jogo {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-gap: 4px;
@@ -26,10 +27,17 @@ body {
     margin-top: 20px;
   }
   
-  .reset-button {
-    font-size: 20px;
-    padding: 10px 20px;
-    margin-top: 20px;
-    cursor: pointer;
-  }
+
   
+  .reset-button {
+    background-color: #550441;
+    color: #fff;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset-button:hover {
+    background-color: #f020b1;
+}

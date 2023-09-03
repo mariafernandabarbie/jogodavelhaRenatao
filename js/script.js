@@ -43,12 +43,12 @@ document.addEventListener("DOMContentLoaded", () => {
       contar[index] = jogador;
       linhas[index].textContent = jogador;
   
-      const winner = pontuacao();
-      if (winner) {
-        if (winner === 'Empate') {
+      const ganhos = pontuacao();
+      if (ganhos) {
+        if (ganhos === 'Empate') {
           message.textContent = 'Empate! O jogo acabou.';
         } else {
-          message.textContent = `Jogador ${winner} ganhou!`;
+          message.textContent = `Jogador ${ganhos} ganhou!`;
         }
         ganhar = true;
       } else {
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
     linhas.forEach((linha, index) => {
       linha.addEventListener('click', () => {
-        if (!ganhar) {
+        if (!ganhar) { 
           handleClick(index);
         }
       });
